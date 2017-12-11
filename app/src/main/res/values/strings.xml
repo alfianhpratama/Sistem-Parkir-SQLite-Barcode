@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sistem Parkir Versi Lama</string>
+    <string name="title_activity_customer_add">CustomerAdd</string>
+</resources>

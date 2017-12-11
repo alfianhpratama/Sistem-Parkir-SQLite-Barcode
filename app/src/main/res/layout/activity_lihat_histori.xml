@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lihat_histori"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.alfianhadipratama.sistemparkir.LihatHistori">
+
+    <TextView
+        android:id="@+id/txt_histori_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt_histori_plat"
+        android:layout_alignParentLeft="true"
+        android:text="Owner" />
+
+    <TextView
+        android:id="@+id/txtnya_histori_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="104dp"
+        android:layout_marginTop="20dp"
+        android:text="owner" />
+
+    <TextView
+        android:id="@+id/txt_histori_plat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Plat Number"
+        android:layout_below="@+id/txtnya_histori_owner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtnya_histori_plat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_histori_plat"
+        android:layout_alignBottom="@+id/txt_histori_plat"
+        android:layout_alignLeft="@+id/txtnya_histori_owner"
+        android:text="Plat Number" />
+
+    <TextView
+        android:id="@+id/txt_histori_masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_histori_plat"
+        android:layout_below="@+id/txt_histori_plat"
+        android:layout_marginTop="20dp"
+        android:text="Check In" />
+
+    <TextView
+        android:id="@+id/txtnya_histori_masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_histori_masuk"
+        android:layout_alignBottom="@+id/txt_histori_masuk"
+        android:layout_alignLeft="@+id/txtnya_histori_plat"
+        android:text="Waktu Masuk" />
+
+    <TextView
+        android:id="@+id/txt_histori_keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_histori_masuk"
+        android:layout_below="@+id/txt_histori_masuk"
+        android:layout_marginTop="20dp"
+        android:text="Check Out" />
+
+    <TextView
+        android:id="@+id/txtnya_histori_keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_histori_keluar"
+        android:layout_alignBottom="@+id/txt_histori_keluar"
+        android:layout_alignLeft="@+id/txtnya_histori_masuk"
+        android:text="Waktu Keluar" />
+
+    <ImageButton
+        android:id="@+id/btn_lihatadmin_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_backyu"
+        android:background="#00000011"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/txtnya_histori_keluar"
+        android:layout_alignEnd="@+id/txtnya_histori_keluar" />
+
+</RelativeLayout>
+
